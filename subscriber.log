@@ -1,0 +1,2 @@
+/home/akshay/Desktop/research/leena_miss/paper_2/18-12-2025_ver_1.0/src/mqtt/subscriber.py:40: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+  client = mqtt.Client(protocol=mqtt.MQTTv5,

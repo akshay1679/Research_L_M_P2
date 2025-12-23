@@ -1,0 +1,8 @@
+ryu-network
+mininet
+paho-mqtt>=1.6.1
+scapy
+networkx
+numpy
+matplotlib
+ipaddress

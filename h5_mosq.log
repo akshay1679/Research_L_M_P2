@@ -1,0 +1,15 @@
+1766455883: mosquitto version 2.0.18 starting
+1766455883: Config loaded from mosquitto.conf.
+1766455883: Opening ipv4 listen socket on port 1883.
+1766455883: Opening ipv6 listen socket on port 1883.
+1766455883: mosquitto version 2.0.18 running
+1766455895: New connection from 10.0.0.4:55943 on port 1883.
+1766455895: New client connected from 10.0.0.4:55943 as auto-AD6F9B4D-0D49-3407-8E89-04E43DEFF4E2 (p5, c1, k60).
+1766455896: New connection from 10.0.0.1:34341 on port 1883.
+1766455896: New client connected from 10.0.0.1:34341 as auto-91751D60-C73F-79D2-2434-AC93038CC4EC (p5, c1, k60).
+1766455896: New connection from 10.0.0.3:52661 on port 1883.
+1766455896: New client connected from 10.0.0.3:52661 as auto-AE179BB1-2EAD-0822-F495-A6F00C128EF6 (p5, c1, k60).
+1766455919: Client auto-91751D60-C73F-79D2-2434-AC93038CC4EC closed its connection.
+1766455919: Client auto-AE179BB1-2EAD-0822-F495-A6F00C128EF6 closed its connection.
+1766455922: Reloading config.
+1766455922: mosquitto version 2.0.18 terminating

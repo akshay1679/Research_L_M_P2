@@ -1,0 +1,58 @@
+[RT-NM] Starting on interface h10-eth0
+[RT-NM] Sniffing on h10-eth0...
+DEBUG PKT: Ether / IP / TCP 10.0.0.4:55943 > 10.0.0.5:1883 S
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.4:55943 SA
+DEBUG PKT: Ether / IP / TCP 10.0.0.4:55943 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.4:55943 > 10.0.0.5:1883 PA / Raw
+DEBUG: Payload len=15, msg_type=1
+DEBUG: Extracted props: {}
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.4:55943 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.4:55943 PA / Raw
+DEBUG: Payload len=55, msg_type=2
+DEBUG PKT: Ether / IP / TCP 10.0.0.4:55943 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.4:55943 > 10.0.0.5:1883 PA / Raw
+DEBUG: Payload len=16, msg_type=8
+DEBUG: Extracted props: {}
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.4:55943 PA / Raw
+DEBUG: Payload len=6, msg_type=9
+DEBUG PKT: Ether / IP / TCP 10.0.0.4:55943 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 S
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.1:34341 SA
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 PA / Raw
+DEBUG: Payload len=15, msg_type=1
+DEBUG: Extracted props: {}
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 S
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.1:34341 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.1:34341 PA / Raw
+DEBUG: Payload len=55, msg_type=2
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.3:52661 SA
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 PA / Raw
+DEBUG: Payload len=109, msg_type=8
+DEBUG: Extracted props: {'Ci': '0.01', 'Pi': '5', 'Ti': '0.05', 'Di': '0.5', 'BWi': '100'}
+[RT-NM] Notifying controller for 10.0.0.1->10.0.0.5
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 PA / Raw
+DEBUG: Payload len=15, msg_type=1
+DEBUG: Extracted props: {}
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.1:34341 PA / Raw
+DEBUG: Payload len=6, msg_type=9
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.3:52661 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.3:52661 PA / Raw
+DEBUG: Payload len=55, msg_type=2
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 PA / Raw
+DEBUG: Payload len=110, msg_type=8
+DEBUG: Extracted props: {'Ci': '0.01', 'Pi': '10', 'Ti': '0.05', 'Di': '0.5', 'BWi': '100'}
+[RT-NM] Notifying controller for 10.0.0.3->10.0.0.5
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.1:34341 PA / Raw
+DEBUG: Payload len=5, msg_type=4
+DEBUG PKT: Ether / IP / TCP 10.0.0.5:1883 > 10.0.0.3:52661 PA / Raw
+DEBUG: Payload len=11, msg_type=9
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 A
+DEBUG PKT: Ether / IP / TCP 10.0.0.1:34341 > 10.0.0.5:1883 FA
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 FA
+DEBUG PKT: Ether / IP / TCP 10.0.0.3:52661 > 10.0.0.5:1883 FA
